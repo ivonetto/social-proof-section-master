@@ -1,0 +1,42 @@
+.qualification-rating:nth-child(1){
+   margin-left: 2rem;
+  }
+.qualification-rating:nth-child(2){
+   margin-left: 4rem;
+  }
+.qualification-rating:nth-child(3){
+   margin-left: 6rem;
+  }
+
+  .review-container:nth-child(1){
+      margin-top: 2rem;
+}
+  .review-container:nth-child(2){
+      margin-top: 4rem;
+}
+  .review-container:nth-child(3){
+      margin-top: 6rem;
+}
+
+  @media screen  and (max-width: 600px){
+    .qualification-rating:nth-child(1){
+        margin-left: 0;
+       }
+     .qualification-rating:nth-child(2){
+        margin-left: 0;
+       }
+     .qualification-rating:nth-child(3){
+        margin-left:0;
+       }
+
+       .review-container:nth-child(1){
+        margin-top: 0;
+  }
+       .review-container:nth-child(2){
+        margin-top: 0;
+  }
+       .review-container:nth-child(3){
+        margin-top: 0;
+  }
+  
+  }
